@@ -1,0 +1,41 @@
+.container {
+	display: grid;
+	grid-template-columns: auto minmax(0,150px) auto;
+}
+
+.myId {
+	
+	margin-right: .3rem;
+	border-radius: 5px;
+
+	padding: .3rem;
+	display: grid;
+	justify-content: center;
+	align-content: center;
+}
+
+.call-button {
+	text-align: center;
+	margin-top: .3rem;
+}
+
+.video-container {
+	display: grid;
+	grid-template-columns: auto auto;
+	justify-content: center;
+	align-content: center;
+	margin-top: .0rem;
+	margin-left: .3rem;
+}
+
+.caller {
+	text-align: center;
+	color: #fff;
+}
+
+body {
+	background: #acbfee; /* fallback for old browsers */
+
+
+	
+}
